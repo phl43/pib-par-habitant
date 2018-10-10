@@ -1,7 +1,6 @@
 library(tidyverse)
 
 # source des données : https://donnees.banquemondiale.org/indicateur/NY.gdp.pcap.cd
-
 data <- read_csv("API_NY.GDP.PCAP.CD_DS2_fr_csv_v2_10140258.csv")
 
 codes <- c("EAP", "LCN", "MEA", "SAS", "SSA", "USA")
